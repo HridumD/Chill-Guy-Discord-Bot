@@ -2,9 +2,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits, MessageFlags } = require('discord.js');
-const { TOKEN } = require('./dupeconfig.json');
+const { TOKEN } = require('./config.json');
 const admin = require('firebase-admin')
-const firebaseKey = require("./chillguydupefirebasekey.json")
+const firebaseKey = require("./firebase_key.json")
 
 // Firebase
 admin.initializeApp({
