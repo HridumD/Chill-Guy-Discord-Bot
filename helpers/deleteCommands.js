@@ -1,5 +1,5 @@
 const { REST, Routes } = require('discord.js');
-const { CLIENT_ID, GUILD_ID, TOKEN } = require('../dupeconfig.json');
+const { CLIENT_ID, GUILD_ID, TOKEN } = require('../config.json');
 
 const rest = new REST().setToken(TOKEN);
 
