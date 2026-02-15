@@ -1,4 +1,6 @@
-# Simple Discord Bot
+# Chill Guy Discord Bot
 
-## Features
+## Simple Discord bot built on Discord.js
+
+### Features
 - Firebase/Firestore class claimer
