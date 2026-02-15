@@ -19,7 +19,7 @@ module.exports = {
 
     const menu = await buildClassMenu(db, interaction.guild.id, savedClasses);
 
-    await interaction.deferReply()
+    await interaction.deferReply({ ephemeral: true })
     await interaction.editReply({
       content: savedClasses.length
         ? 'Manage your classes:'
