@@ -1,0 +1,5 @@
+config.json
+node_modules/
+firestore_key.json
+package.json
+package-lock.json
