@@ -2,7 +2,7 @@ const { Events, GuildAuditLogs } = require('discord.js');
 
 module.exports = {
     name: Events.ThreadCreate,
-    once: true,
+    once: false,
     execute(thread) {
         const tags = thread.appliedTags
 
